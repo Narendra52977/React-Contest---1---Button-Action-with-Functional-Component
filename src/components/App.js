@@ -8,10 +8,10 @@ function App() {
   };
   return (
     <div id="main">
-           <Button id="para" onClick={(event) => handleClick(event)}>
+           <Button id="click" onClick={(event) => handleClick(event)}>
           para
         </Button>
-        <p>{paragraph}</p>
+        <p id="para">{paragraph}</p>
     </div>
   );
 }
