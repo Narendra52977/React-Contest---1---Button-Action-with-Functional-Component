@@ -13,7 +13,7 @@ function App() {
       <button id="click" onClick={(event) => handleClick(event)}>
         para
       </button>
-      <p id="para">{paragraph}</p>
+      {paragraph ? <p id="para">{paragraph}</p> : null}
     </div>
   );
 }
